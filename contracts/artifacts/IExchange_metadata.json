@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_minTokens",
+						"type": "uint256"
+					}
+				],
+				"name": "ethToTokenSwap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IExchange.sol": "IExchange"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IExchange.sol": {
+			"keccak256": "0x4d9a7e69eaf0e44825eeda156be653c4ece7023707e3ee311c0e9ad56436706b",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://adf8cf201a83390d4523c492fdb8acdd0b4f37fe8b57a48ad3c06aa6ae740598",
+				"dweb:/ipfs/QmTJCGTB8ehgwFbLgn2BLrUBThxEH61NgETeaNhjLN5zFm"
+			]
+		}
+	},
+	"version": 1
+}
